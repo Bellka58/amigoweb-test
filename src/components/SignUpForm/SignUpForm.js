@@ -10,8 +10,8 @@ import {
   Form
 } from './style';
 import CustomButton from '../shared/Button';
-import { options } from './languagesOptions';
 import { emptyAllFieldsChecking, emptyFieldsChecking } from '../../utils/fieldsChecking';
+import { options } from '../../constants/languagesOptions';
 
 const SignUpForm = () => {
   const [fields, setFields] = useState({
